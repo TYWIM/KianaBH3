@@ -22,7 +22,7 @@
     "DataPath": "Config/Data"
   },
   "ServerOption": {
-    "Language": "EN",
+    "Language": "CHS",
     "FallbackLanguage": "EN",
     "DefaultPermissions": [
       "Admin"
