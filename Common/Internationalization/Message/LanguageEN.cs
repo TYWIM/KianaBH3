@@ -1,4 +1,4 @@
-﻿namespace KianaBH.Internationalization.Message;
+namespace KianaBH.Internationalization.Message;
 
 #region Root
 
@@ -122,6 +122,9 @@ public class ServerInfoTextEN
     public string LoadedItem => "Loaded {0}.";
     public string LoadedItems => "Loaded {0} {1}(s).";
     public string ServerRunning => "{0} server listening on {1}";
+
+    public string PostRegisteredAnnouncement =>
+        "This server is organized by ChengXinShiMeng and shared for free. Do not resell!";
 
     public string ServerStarted =>
         "Startup complete! Took {0}s, better than 99% of users. Type 'help' for command help"; // This is a meme, consider localpermissiong in English

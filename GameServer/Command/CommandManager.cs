@@ -24,6 +24,7 @@ public class CommandManager
 
         Logger.Info(I18NManager.Translate("Server.ServerInfo.RegisterItem", Commands.Count.ToString(),
             I18NManager.Translate("Word.Command")));
+        Logger.Info(I18NManager.Translate("Server.ServerInfo.PostRegisteredAnnouncement"));
     }
 
     public static void RegisterCommand(Type type)

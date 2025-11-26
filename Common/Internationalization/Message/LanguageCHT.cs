@@ -1,4 +1,4 @@
-﻿namespace KianaBH.Internationalization.Message;
+namespace KianaBH.Internationalization.Message;
 
 #region Root
 
@@ -176,10 +176,12 @@ public class ServerInfoTextCHT
     public string LoadedItem => "已加載 {0}。";
     public string LoadedItems => "已加載 {0} 個 {1}。";
     public string ServerRunning => "{0} 服務器正在監聽 {1}";
-    public string ServerStarted => "啟動完成!用時 {0}s, 擊敗了99%的用戶, 輸入 『help』 來獲取命令幫助"; // 玩梗, 考慮英語版本將其本土化
-    public string MissionEnabled => "任務系統已啟用, 此功能仍在開發中, 且可能不會按預期工作, 如果遇見任何bug, 請匯報給開發者。";
+    public string ServerStarted => "啟動完成!用時 {0}s, 擊敗了99%的用戶, 輸入 ‘help’ 來獲取命令幫助";
+    public string MissionEnabled => "任務系統已啟用, 此功能仍在開發中, 且可能不會按預期工作, 如果遇見任何bug, 請彙報給開發者。";
     public string KeyStoreError => "SSL證書不存在, 已關閉SSL功能。";
     public string CacheLoadSkip => "已跳過緩存加載。";
+
+    public string PostRegisteredAnnouncement => "本服務端由承心識夢整理後免費分享，請勿倒賣！";
 
     public string ConfigMissing => "{0} 缺失, 請檢查你的資源文件夾: {1}, {2} 可能不能使用。";
     public string UnloadedItems => "卸載了所有 {0}。";
