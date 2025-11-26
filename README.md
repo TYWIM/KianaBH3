@@ -1,7 +1,7 @@
 # KianaBH3
 
 <p align="center">
-<strong>KianaBH3</strong> is a server emulator of a certain adventure anime game!
+<strong>KianaBH3</strong> 是一款特定冒险动漫游戏的服务器模拟器！
 
 <a href="https://visualstudio.com"><img src="https://img.shields.io/badge/Visual%20Studio-000000.svg?style=for-the-badge&logo=visual-studio&logoColor=white" /></a>
 <a href="https://dotnet.microsoft.com/"><img src="https://img.shields.io/badge/.NET-000000.svg?style=for-the-badge&logo=.NET&logoColor=white" /></a>
@@ -11,57 +11,55 @@
   <a href="https://discord.gg/MdHC4AJvec"><img src="https://img.shields.io/badge/Discord%20Server-000000.svg?style=for-the-badge&logo=Discord&logoColor=white" /></a>
 </p>
 
-## 💡 Function
+## 💡 功能
 
-- [√] **Enter the ship**
-- [√] **Battle**
-- [√] **Superstring Dimension (Abyss)**
-- [√] **Universial Mirage**
-- [√] **Story Chapter 1 - 42**
-- [√] **Character Tutorial**
-- [√] **Memorial Arena**
-- [√] **Inventory**
-- [√] **Command**
+- [√] 进入主界面
+- [√] 战斗
+- [√] 深渊（Abyss）
+- [√] 万象虚境
+- [√] 剧情章节 1 - 42
+- [√] 角色引导
+- [√] 记忆战场
+- [√] 背包与物品
+- [√] 命令系统
 
-KianaBH3 is still in development, it will have bugs, please stay tuned for our new submissions.
+KianaBH3 仍在开发中，可能存在问题，欢迎关注后续提交。
 
-## 🍗 Use & Installation
+## 🍗 使用与安装
 
-### You need to Build it
-**Requirement: **
+### 构建
+**环境要求：**
 
-Note: KianaBH3 is built using .NET Framework
-That means you need a .NET Framework
+说明：KianaBH3 基于 .NET 构建
+这意味着你需要安装 .NET 环境
 
 - [.NET](https://dotnet.microsoft.com/)
 - [Git](https://git-scm.com/downloads)
 
 <details>
-<summary>Click to expand the detailed installation steps</summary>
-
-##### Windows
+<summary>展开 Windows 安装步骤</summary>
 
 ```shell
-git clone --recurse-submodules https://github.com/MikuLeaks/KianaBH3.git
-cd KianaBH
-dotnet build # compile
+git clone --recurse-submodules https://github.com/TYWIM/KianaBH3.git
+cd KianaBH3
+dotnet build
 ```
 
-## ❓ Help
+## ❓ 帮助
 
-Use KianaBH-Resources
+使用 KianaBH-Resources 资源库：
 - [KianaBH-Resources](https://github.com/MikuLeaks/KianaBH3-Resources/)
 </details>
 
-## ❕️ Troubleshooting
+## ❕️ 故障排查
 
-For solutions to common problems or assistance, please join our Discord server at [https://discord.gg/MdHC4AJvec](https://discord.gg/MdHC4AJvec)
+如需常见问题解决方案或帮助，请加入我们的 Discord：[https://discord.gg/MdHC4AJvec](https://discord.gg/MdHC4AJvec)
 
-## 🙌 Acknowledgements
+## 🙌 致谢
 
---DanhengServer & FireflyDH - Some data structures and algorithms
+--DanhengServer & FireflyDH - 部分数据结构与算法
 
--- amizing25 - resources & proto
+-- amizing25 - 资源与协议
 
 --StopWuyu
 
