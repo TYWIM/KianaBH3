@@ -1,4 +1,4 @@
-﻿using KianaBH.Database.Account;
+using KianaBH.Database.Account;
 using KianaBH.Enums.Player;
 using KianaBH.GameServer.Server;
 using KianaBH.Internationalization;
@@ -24,6 +24,7 @@ public class CommandManager
 
         Logger.Info(I18NManager.Translate("Server.ServerInfo.RegisterItem", Commands.Count.ToString(),
             I18NManager.Translate("Word.Command")));
+        Logger.Info($"后台已启动于{ConfigManager.Config.HttpServer.GetDisplayAddress()}");
         Logger.Info(I18NManager.Translate("Server.ServerInfo.PostRegisteredAnnouncement"));
     }
 

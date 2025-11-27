@@ -11,7 +11,7 @@
     "KcpAliveMs": 45000,
     "DatabaseName": "kiana.db",
     "GameServerId": "KianaBH",
-    "GameServerName": "KianaBH"
+    "GameServerName": "KianaBH-cxaim"
   },
   "Path": {
     "ResourcePath": "Resources",
@@ -30,12 +30,10 @@
     "ServerProfile": {
       "Name": "Server",
       "Uid": 80,
-      "Signature": "Type /help for a list of commands",
-      "Level": 1,
-      "HeadIcon": 200105,
-      "ChatBubbleId": 220001,
-      "DisplayAvatarId": 1001,
-      "DisplayAvatarLevel": 1
+      "AvatarId": 3201,
+      "DressId": 593201,
+      "FrameId": 200001,
+      "HeadId": 161080
     },
     "AutoCreateUser": true,
     "SavePersonalDebugFile": false,

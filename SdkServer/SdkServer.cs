@@ -17,6 +17,7 @@ public class SdkServer
         var builder = WebHost.CreateDefaultBuilder(args)
             .UseStartup<Startup>()
             .ConfigureLogging((_, logging) => { logging.ClearProviders(); })
+            .UseWebRoot(Path.Combine(AppContext.BaseDirectory, "wwwroot"))
             .UseUrls(ConfigManager.Config.HttpServer.GetBindDisplayAddress());
 
         return builder.Build();
@@ -29,6 +30,8 @@ public class Startup
     {
         if (env.IsDevelopment()) app.UseDeveloperExceptionPage();
 
+        app.UseDefaultFiles();
+        app.UseStaticFiles();
         app.UseRouting();
         app.UseCors("AllowAll");
         app.UseAuthorization();

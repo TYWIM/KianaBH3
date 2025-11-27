@@ -1,4 +1,4 @@
-﻿using KianaBH.Data;
+using KianaBH.Data;
 using KianaBH.Database;
 using KianaBH.Database.Account;
 using KianaBH.Database.Client;

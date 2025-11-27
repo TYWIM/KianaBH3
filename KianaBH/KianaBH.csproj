@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -16,6 +16,12 @@
     <ProjectReference Include="..\Common\Common.csproj" />
     <ProjectReference Include="..\GameServer\GameServer.csproj" />
     <ProjectReference Include="..\SdkServer\SdkServer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\**\*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

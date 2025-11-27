@@ -1,4 +1,4 @@
-﻿using KianaBH.Data.Models.Sdk;
+using KianaBH.Data.Models.Sdk;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KianaBH.SdkServer.Handlers.Sdk;

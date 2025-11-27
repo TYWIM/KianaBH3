@@ -1,4 +1,4 @@
-﻿using KianaBH.GameServer.Game.Player;
+using KianaBH.GameServer.Game.Player;
 using KianaBH.GameServer.Server.Packet;
 using KianaBH.KcpSharp;
 using KianaBH.KcpSharp.Base;
